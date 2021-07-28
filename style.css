@@ -1,0 +1,97 @@
+body {
+  background-color:#005689;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  line-height: normal;
+  color:  #007cb9;
+}
+
+h1 {
+  color: #005689;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+}
+
+h2 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: x-large;
+  color: #007cb9;
+}
+
+a {
+  text-decoration: none;
+  color: #007cb9;
+  font-weight: 600;
+}
+a:hover {
+  color:blueviolet;
+}
+
+.card {
+  text-align: center;
+  background: #d5eeff;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 20px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+.container {
+  width: 800px;        /* Set the width */
+  margin: 0 auto;
+}
+
+.image {
+  margin: 0 auto;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.text-align {
+  text-align: center;
+}
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+.btn-blue {
+  background-color: #ff895d;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+#introduction {
+  margin-bottom: 30px;
+}
+.fab {
+  font-size: 35px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+/* color palette taken from: https://www.csscolorpalettes.com/palettes/615 */
