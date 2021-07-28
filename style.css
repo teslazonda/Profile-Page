@@ -58,6 +58,11 @@ a:hover {
   list-style: none;
   padding-left: 0;
 }
+#cat {
+  color: rgb(231, 53, 53);
+  font-family: cursive;
+  font-size: 20px;
+}
 .btn-blue {
   background-color: #ff895d;
   padding: 15px 20px;
